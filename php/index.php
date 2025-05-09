@@ -8,13 +8,13 @@ class Mobil {
     public $harga;
 
     public function mobil($merek, $warna, $harga) {
-        $this->merek = $merek
-        $this->warna = $warna
-        $this->harga = $harga
+        $this->merek = $merek;
+        $this->warna = $warna;
+        $this->harga = $harga;
     }
 
     public function getLabel() {
-        return "Merek {$this->merek}, Warna {$this->warna}, Harga {$this->harga}"
+        return "Merek {$this->merek}, Warna {$this->warna}, Harga {$this->harga}";
     }
 }
 
