@@ -19,4 +19,4 @@ class Mobil {
 }
 
 $obj = new mobil;
-echo $obj->getLabel("Avanza", "Merah", "10000")
+echo $obj->getLabel("Avanza", "Merah", "10000");
